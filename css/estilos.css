@@ -560,3 +560,15 @@ body {
         height: 350px;
     }
 }
+
+@media (max-width: 450px) {
+    .about__container::before {
+        top: 1650px;
+        height: 650px;
+    }
+
+    .idiomas__container::before {
+        top: 3205px;
+        height: 350px;
+    }
+}
